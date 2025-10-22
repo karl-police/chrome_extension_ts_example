@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "rootDir": "./src_named_dir",
+        "outDir": "./dist_custom_dir",
+        "jsx": "react-jsx",
+    },
+}

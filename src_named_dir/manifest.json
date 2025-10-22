@@ -1,0 +1,26 @@
+{
+    "$schema": "https://json.schemastore.org/chrome-manifest.json",
+    
+    "name": "chrome_extension_ts_example",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    
+    "content_scripts": [
+        {
+            "js": ["main.js"],
+            "matches": ["*://example.com/*"]
+        }
+    ],
+
+    "web_accessible_resources": [
+        {
+            "resources": ["**/*.map", "*.map"],
+            "matches": ["*://example.com/*"]
+        }
+    ],
+
+
+    "action": {
+        "default_popup": "index.html"
+    }
+}
