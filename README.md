@@ -11,4 +11,4 @@ Extension is made to enable on https://example.com.
 
 ---
 
-Source maps may need to be made available through ``web_accessible_resources``.
+Source maps may need to be made accessible through ``web_accessible_resources`` or else they won't be able to load in the browser.
